@@ -44,7 +44,7 @@ export default function App() {
   return (
     <div className="mx-auto max-w-5xl space-y-4 p-4">
       <header className="flex flex-wrap items-center justify-between gap-2">
-        <h1 className="text-xl font-semibold">scheduleSkipper</h1>
+        <h1 className="text-xl font-semibold">timetableSkipper</h1>
         <div className="flex items-center gap-1">
           <Button variant="outline" size="icon-sm" onClick={() => changeMonth(-1)}>
             <ChevronLeft />

@@ -1,6 +1,6 @@
 import { type MonthData } from './domain'
 
-const PREFIX = 'scheduleSkipper:month:'
+const PREFIX = 'timetableSkipper:month:'
 
 export function loadMonth(key: string): MonthData | null {
   const raw = localStorage.getItem(PREFIX + key)
